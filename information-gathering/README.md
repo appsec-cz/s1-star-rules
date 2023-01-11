@@ -4,5 +4,7 @@
 
 Doporučená závažnost: High
 ```
-EndpointOS = "windows" AND EventType = "Process Creation" AND TgtProcCmdLine Contains Anycase "netsh wlan show profile" AND TgtProcCmdLine Contains Anycase "key=clear"
+EndpointOS = "windows" AND EventType = "Process Creation" AND
+TgtProcCmdLine Contains Anycase "netsh wlan show profile" AND
+TgtProcCmdLine Contains Anycase "key=clear"
 ```
