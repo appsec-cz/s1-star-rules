@@ -1,1 +1,1 @@
-# s1-star-rules
+# SentinelOne - STAR RULES
