@@ -3,3 +3,5 @@
 [Remote login](remote-login/README.md)
 
 [Active directory](active-directory/README.md)
+
+[Information gathering](information-gathering/README.md)
