@@ -1,3 +1,3 @@
 # SentinelOne - STAR RULES
 
-[Remote login](tree/main/remote-login/README.md)
+[Remote login](remote-login/README.md)
