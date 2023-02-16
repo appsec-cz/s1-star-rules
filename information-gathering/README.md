@@ -14,6 +14,6 @@ TgtProcCmdLine Contains Anycase "key=clear"
 PowerQuery
 ```
 event.category = 'logins' AND event.login.loginIsSuccessful = false 
-| group NumberOfFailedAttempts = count(event.login.loginIsSuccessful=false) by event.login.userName, endpoint.name
+| group NumberOfFailedAttempts = count(event.login.loginIsSuccessful=false) by event.login.userName, event.login.type, event.login.failureReason, endpoint.name
 | sort -NumberOfFailedAttempts
 ```
