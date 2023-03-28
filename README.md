@@ -7,3 +7,5 @@
 [Information gathering](information-gathering/README.md)
 
 [Behavioral indicators](behavioral-indicators/README.md)
+
+[Applications](applications/README.md)
